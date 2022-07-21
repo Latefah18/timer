@@ -1,0 +1,49 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e2d2d2;;
+    }
+
+
+/* border */
+    #mainstopwatch{
+     
+        padding:15% 20% ;
+        text-align:center;
+        font-size: 40px;
+        border-radius:40px;
+        background: #e2d2d2;
+      
+
+        }
+
+    
+
+/* the three button start stop reset */
+            #mainstopwatch button{
+            font-size: 22px;
+            border:none;
+            background-color: #8ec5e7;
+            color:white;
+            width:110px;
+            height:55px;
+            justify-content: space-between;
+            transition:0.2s;
+            border-radius:10px;
+          
+            }
+
+/* the three button start stop reset styling */
+             #mainstopwatch button:nth-child(even){
+                background-color: rgb(241, 64, 64);
+                
+                }
+                #mainstopwatch button:last-child{
+                background-color: #87edd7;
+                }
+                #mainstopwatch button:hover{
+                background:#333;
+                color:#e0e0e0;
+                border-radius:35px;
+                transition: 0.2s;
+                } 
